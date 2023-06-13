@@ -1,0 +1,244 @@
+/* ESTILOS HEADER  */
+
+
+header{
+	background:url(../imagenes/barista/img24.jpg) no-repeat center fixed;
+	background-size:cover;
+	height:100px;
+	width: 100%;
+	left:0;
+	top:0;
+}
+
+header h1 {
+    background-color: #832801;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-style: normal;
+    display: inline-block;
+    margin: 0.5em 0;
+}
+
+header .menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu ul li{
+    list-style: none;
+}
+
+header .menu a{
+    color: #000;
+    font-weight: 450;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 7 12px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+header .menu a:hover{
+    color: #000;
+    background: #fff;
+
+}
+
+}
+
+/* ESTILOS NAVBAR */
+
+nav {
+    background-color: #166801;
+    position: absolute;
+    left: 0;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 13%;
+}
+
+nav ul li a {
+    color: rgb(76, 0, 0);
+    text-decoration: none;
+    text-align: flex;
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo {
+    background-color: #1a7f01;
+}
+
+nav .menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .menu ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .menu ul li{
+    list-style: none;
+}
+
+nav .menu a{
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 7 12px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+/* BODY */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* ESTILOS MAIN  */
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.homeimg img {
+    width: 100%;
+}
+
+.columnas {
+    overflow: hidden;
+}
+
+.wrapper {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.one {
+    background-color:#832801;
+    grid-column: 1 / 4 ;
+    grid-row: 1 ;
+    text-align: center;
+}
+.two {
+    background-color: transparent;
+    grid-column: 1 / 4 ;
+    grid-row: 2 ;
+    text-align: center;
+}
+.three {
+    background-color: rgba(156, 101, 133, 0.3);
+    grid-column: 1 / 4;
+    grid-row: 3 ;
+    text-align: center;
+}
+.four {
+    background-color:#104d01 ;
+    grid-column:  1 / 4 ;
+    grid-row: 1 ;
+    text-align: center;
+}
+.five {
+    background-color: transparent;
+    grid-column:  1 / 4 ;
+    grid-row: 2 ;
+    text-align: center;
+    
+}
+.six {
+    background-color: rgba(101, 156, 141, 0.615);
+    grid-column: 1 / 4 ;
+    grid-row: 3 ;
+    text-align: center;
+}
+
+/*Carrusel de fotos*/
+
+.carousel-item {
+    height: 300px;
+    min-height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:15px
+    ;
+}
+
+.card-columns .card {
+    display: inline-block;
+    width: 100%;
+}
+
+.card-img-top {
+    width: 175;
+    height: 300px; 
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+footer {
+    background-color: #832801;
+    clear: both;
+    color: #ffffff;
+    padding: 3em 0;
+    margin-top: 1em;
+    text-align: center;
+}
